@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+
+/* navigation  */
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  padding-left: 25px;
+}
+/* header */
+.header {
+  background: url("./image/banner-home.jpg") no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+}
+.header .container .text {
+  width: 50%;
+  display: inline-block;
+  flex-direction: column;
+  padding-top: 250px;
+  color: #fff;
+}
+.header .container .text h1 {
+  color: #f24b12;
+  font-size: 40px;
+}
+.header .container .text h2 {
+  padding: 10px 0;
+  font-size: 30px;
+  font-weight: lighter;
+}
+button {
+  margin: 40px 0;
+  padding: 10px 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.about {
+  background-color: white;
+}
+.contact {
+  background-color: #f24b12;
+}
+button:hover {
+  opacity: 0.9;
+}
+/* section */
+section {
+  margin: 50px 0;
+}
+.section .container {
+  display: flex;
+  justify-content: center;
+  height: 45vh;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.section .container .left {
+  max-width: 50%;
+  height: 100%;
+  margin-right: 100px;
+}
+.left h3 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.left span {
+  color: #f24b12;
+}
+.left p {
+  padding: 20px 0 0 0;
+  max-width: 90%;
+}
+section .container .right {
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+section .container .rightt {
+  display: flex;
+}
+.right-text {
+  padding-left: 10px;
+}
+.right .vl {
+  border-left: 6px solid #f24b12;
+  height: 200px;
+  position: absolute;
+  left: 59.2%;
+  top: 120%;
+  z-index: -1;
+}
+.rightt i {
+  color: #fff;
+}
+.rightt p {
+  max-width: 80%;
+  padding: 5px 0 20px 0;
+}
+.rightt a {
+  background-color: #f24b12;
+  border-radius: 1000px;
+  min-height: 80px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* service */
+.service {
+  background-color: #dfdfdf;
+  height: 100vh;
+}
+
+.service .service-text {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.service .service-text h2 {
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 10px;
+  padding-bottom: 15px;
+}
+.service .service-text p {
+  line-height: 1.6;
+}
+.service .container .boxs {
+  display: flex;
+  justify-content: center;
+}
+.service .container .boxs .box {
+  background-color: #fff;
+  margin: 5px;
+
+  text-align: center;
+  padding: 20px 25px;
+}
+.service .container .boxs .box h3 {
+  margin: 20px 0;
+  font-size: 20px;
+
+  text-align: center;
+}
+/* intelligence  */
+.intelligence .container {
+  display: flex;
+  justify-content: center;
+}
+.intelligence .container .left {
+  max-width: 50%;
+  display: flex;
+  margin-right: 20px;
+}
+.bx {
+  background-color: #363636;
+  min-width: 200px;
+  margin: 10px;
+  min-height: 150px;
+}
+.bx p {
+  text-align: center;
+  padding-top: 80%;
+  padding-bottom: 10%;
+  color: #fff;
+  font-weight: 900;
+}
+.intelligence .container .right {
+  max-width: 50%;
+  margin: 30px 0;
+}
+.intelligence .container .right h2 {
+  letter-spacing: 8px;
+}
+.intelligence .container .right p {
+  line-height: 30px;
+  margin: 30px 0;
+  opacity: 0.8;
+}
+.intelligence .container .right li {
+  list-style: inside;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.intelligence .container .right a {
+  background-color: #f24b12;
+  color: #fff;
+  margin: 0 auto;
+  margin-left: 0;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+/* footer */
+.footer {
+  background-color: #171f32;
+  max-height: 100vh;
+  color: #fff;
+}
+.footer .container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 60px 0 40px 0;
+}
+.footer .container h3 {
+  margin-bottom: 20px;
+}
+.footer .container p {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.footer .container .ft {
+  max-width: 24%;
+  max-height: 100%;
+  margin: 30px 20px;
+}
+.footer .container .ft input {
+  padding: 10px 20px 10px 10px;
+  border-radius: 50px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
